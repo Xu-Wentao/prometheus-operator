@@ -1,0 +1,69 @@
+pkg/client/applyconfiguration/utils.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 79-80,217-218,221-222
+pkg/k8s/secrets.go
+  h_ddcd91ea68ddcc 63,71
+pkg/operator/config_reloader.go
+  s_3a66279bfe9d93::t_f60ba9b1a222e4 79-80,226-232,366-369
+  s_3a66279bfe9d93::t_04ae8806ae610c 59-78
+  s_3a66279bfe9d93::t_72615ed5fd843b 370
+pkg/prometheus/server/operator_test.go
+  h_ddcd91ea68ddcc 284,294
+pkg/webconfig/config.go
+  s_3a66279bfe9d93::t_f60ba9b1a222e4 19,24,45-49,61-65,106,119-121,128-131,266-286
+  s_3a66279bfe9d93::t_96080788fb78e2 287-288
+pkg/prometheus/server/statefulset_test.go
+  s_3a66279bfe9d93::t_2eb736a0c1c9cc 19,3693-3700,3702-3710,3712-3772
+  s_3a66279bfe9d93::t_3f08b0a180a8a2 3701,3711
+  s_3a66279bfe9d93::t_2b87351c413825 3773
+pkg/webconfig/config_test.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 179-195,198-200,202-208,210-222
+  s_d8396d363b90e3::t_5fb068fb274a59 231
+  h_ddcd91ea68ddcc 201,209
+  s_d8396d363b90e3::t_fc2ee9b696165d 223
+pkg/prometheus/common.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 60,407-409
+pkg/prometheus/server/statefulset.go
+  h_ddcd91ea68ddcc 216,218-219,221,230,863,870
+go.mod
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 180
+pkg/prometheus/server/thanos_sidecar_config.go
+  s_3a66279bfe9d93::t_f60ba9b1a222e4 18,24,27,40,52-65
+  s_3a66279bfe9d93::t_e06262afa2a581 66
+pkg/client/applyconfiguration/monitoring/v1/webconfigfilefields.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 28,52-57
+  s_3a66279bfe9d93::t_6514bd8082a031 27
+  s_3a66279bfe9d93::t_eb57f7dce9ebe8 58-59
+pkg/prometheus/server/operator.go
+  h_ddcd91ea68ddcc 1087
+pkg/apis/monitoring/v1/zz_generated.deepcopy.go
+  s_3a66279bfe9d93::t_c869585b556af8 822-837,3529-3544,3570-3584,4477-4481
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b323e798bb0b56ae4cfff41afce58caab5df9e15",
+  "prompts": {},
+  "humans": {
+    "h_ddcd91ea68ddcc": {
+      "author": "xuwentao <cutenear1993@yahoo.com>"
+    }
+  },
+  "sessions": {
+    "s_3a66279bfe9d93": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fb729-0666-73c0-828d-720d73fac3e6",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuwentao <cutenear1993@yahoo.com>"
+    },
+    "s_d8396d363b90e3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fb74a-f174-73f2-a8cf-264bd6a44108",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": null
+    }
+  }
+}
