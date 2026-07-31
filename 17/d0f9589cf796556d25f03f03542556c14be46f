@@ -1,0 +1,38 @@
+pkg/operator/config_reloader.go
+  s_3a66279bfe9d93::t_04ae8806ae610c 59-78
+  s_3a66279bfe9d93::t_f60ba9b1a222e4 79-80,226-232,366-369
+go.mod
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 180
+pkg/webconfig/config_test.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 179-195,198-225
+pkg/client/applyconfiguration/utils.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 79-80,217-218,221-222
+pkg/client/applyconfiguration/monitoring/v1/webconfigfilefields.go
+  s_3a66279bfe9d93::t_6514bd8082a031 27
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 28,52-57
+pkg/prometheus/server/statefulset_test.go
+  s_3a66279bfe9d93::t_3f08b0a180a8a2 3701,3711
+  s_3a66279bfe9d93::t_2eb736a0c1c9cc 19,3693-3700,3702-3710,3712-3772
+pkg/prometheus/server/thanos_sidecar_config.go
+  s_3a66279bfe9d93::t_f60ba9b1a222e4 18,24,27,40,52-65
+pkg/webconfig/config.go
+  s_3a66279bfe9d93::t_f60ba9b1a222e4 19,24,45-49,61-65,106,119-121,128-131,266-286
+pkg/prometheus/common.go
+  s_3a66279bfe9d93::t_33ef25d4cfdf31 60,407-409
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "17d0f9589cf796556d25f03f03542556c14be46f",
+  "prompts": {},
+  "sessions": {
+    "s_3a66279bfe9d93": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fb729-0666-73c0-828d-720d73fac3e6",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "xuwentao <cutenear1993@yahoo.com>"
+    }
+  }
+}
